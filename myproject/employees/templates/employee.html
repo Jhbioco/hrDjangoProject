@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="container">
+    <h3>New Employee</h3>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table>
+            <tr>
+                {{ form }}
+            </tr>
+        </table>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
+<style>
+    #id_name, #id_cod, #id_last_name, #id_civil_status, #id_photo, #id_degree, #id_category, #id_department,
+    #id_birth, #id_bio, #id_address, #id_city{
+        width: 400px;
+    }
+</style>
+{% endblock %}

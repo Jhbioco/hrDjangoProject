@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+
+        <h3>Delete Employee</h3>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <p>Are you confirm want to delete <b>{{employee.name}} {{employee.last_name}}?</p>
+            <input type="submit" value="yes" class="btn btn-primary btn-xs pull-right"/>
+            <a href="/employees" class="btn btn-info btn-xst">No</a>
+        </form>
+</div>
+{% endblock content %}

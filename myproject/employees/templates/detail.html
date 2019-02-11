@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h3>Employees Details</h3>
+    <img src="/media/{{employee.photo}}" class="img-fluid" alt="Responsive image" width="100" height="50">
+    <form>
+        <label>Employee Code</label>
+        <input class="form-control" type="text" placeholder="{{employee.cod}}" readonly>
+        <label>Name</label>
+        <input class="form-control" type="text" placeholder="{{employee.name}} {{employee.last_name}}" readonly>
+        <label>Department</label>
+        <input class="form-control" type="text" placeholder="{{employee.department.dep_name}}" readonly>
+        <label>Degree</label>
+        <input class="form-control" type="text" placeholder="{{employee.degree}}" readonly>
+        <label>Degree</label>
+        <input class="form-control" type="text" placeholder="{{employee.degree}}" readonly>
+         <label>Email</label>
+        <input class="form-control" type="text" placeholder="{{employee.email}}" readonly>
+    </form>
+
+</div>
+{% endblock content %}

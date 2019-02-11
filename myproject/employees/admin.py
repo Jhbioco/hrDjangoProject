@@ -1,9 +1,8 @@
 from django.contrib import admin
-from .models import Employee, Category, Document, Attachment
+from .models import Employee, Category, Document, Department
 
 
-# Register your models here.
 admin.site.register(Employee)
 admin.site.register(Category)
 admin.site.register(Document)
-admin.site.register(Attachment)
+admin.site.register(Department)
