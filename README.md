@@ -10,7 +10,8 @@ Wokflow:
   - Its necessary to create a supperuser (python manage.py createsuperuser) in order to take advantage of the django admin.
   - - The file called setting.py inside project folder have to be configure. We have to register the app (employees) in the installed App of the settings.py document.
   - Next steps follows the order:
-    - Create (models--->register models in admin.py---> templates ---> urls ---> forms ---> views)
+    - Create (models--->register models in admin.py---> templates ---> urls ---> forms ---> views).
+
 A boostrap free template was used to create the templates (you can download in: url: https://startbootstrap.com/previews/simple-sidebar/).
    
 1 - Requirements
