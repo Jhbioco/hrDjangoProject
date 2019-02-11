@@ -13,5 +13,4 @@
 4 - Edit settings.py file
   - Add the app (employees)
   
-
-  
+The Bootstrap Theme is a free theme locate in url: https://startbootstrap.com/previews/simple-sidebar/
