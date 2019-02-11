@@ -1,4 +1,4 @@
-# hrDjangoProject
+# webDjangoProject (basic web app)
 This is a small django project for those who want to star developing web app using Django Framework (python framework).
 The project is an app for human resources management. 
 Wokflow:
