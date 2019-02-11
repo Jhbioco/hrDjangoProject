@@ -1,6 +1,6 @@
 # hrDjangoProject
 This is a small django project for those who want to star developing web app using Django Framework (python framework).
-The project is an app for human resources managment. 
+The project is an app for human resources management. 
 Wokflow:
   - We start installing necesary softwares in order to use django (you can see the requirments bellow).
   - After that, we create the projet using the command (django-admin.py startproject myproject).
