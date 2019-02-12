@@ -17,7 +17,12 @@
         <input class="form-control" type="text" placeholder="{{employee.degree}}" readonly>
          <label>Email</label>
         <input class="form-control" type="text" placeholder="{{employee.email}}" readonly>
+        <label>Documents</label>
     </form>
+    {% for document in documents %}
+        <a href="/media/{{document.doc_file}}"
+           class="btn btn-primary btn-xs pull-right" download>{{document.doc_name}}</a>
+    {% endfor %}
 
 </div>
 {% endblock content %}

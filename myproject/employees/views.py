@@ -45,6 +45,7 @@ def employeeDelete(request, pk):
 
 def employeeDetail(request, pk):
     employee = get_object_or_404(Employee, pk=pk)
-    return render(request, 'detail.html', {'employee':employee})
+    documents = Document.objects.filter(employee_id=employee.id)
+    return render(request, 'detail.html', {'employee':employee, 'documents':documents})
 
 
