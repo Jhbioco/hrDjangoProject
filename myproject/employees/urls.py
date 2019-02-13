@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.urls import path
 from .views import home
 from .views import employeeList
@@ -5,6 +6,8 @@ from .views import employeeNew
 from .views import employeeEdit
 from .views import employeeDelete
 from .views import employeeDetail
+from .views import logout
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('', home, name='home'),
