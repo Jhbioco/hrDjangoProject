@@ -1,9 +1,9 @@
 # DjangoProject (simple web app)
 This project is a simple django web app for human resources management.
 #
-Wokflow:
+**Wokflow:**
    
-1. Install Requirements
+**1. Install Requirements**
   ```
   virtualenv virtual
   ```
@@ -18,18 +18,18 @@ Wokflow:
   ```
   
 #
-2. Create the project (myproject)
+**2. Create the project (myproject)**
   ```
   django-admin startproject myproject
   ```
   
-3. Create the app
+**3. Create the app**
   ```
   python manage.py startapp employees
   ```
 
 #
-4. Edit settings.py file
+**4. Edit settings.py file**
 
   - Add the app (employees)
   ```
@@ -59,12 +59,12 @@ STATICFILES_DIRS = [
   ```
 
 #
-5. Create the templates folder (where we create the html files) inside the app (employees) 
+**5. Create the templates folder (where we create the html files) inside the app (employees)**
   - A boostrap free template was used to create the templates (you can download in: url: https://startbootstrap.com/previews/simple-sidebar/).
 
-6. Create the static file inside the app and past the css e js folder from the free bootstrap template
+**6. Create the static file inside the app and past the css e js folder from the free bootstrap template**
 
-7. Start developing the app (employees)
+**7. Start developing the app (employees)**
 
 You can donwload these project into you computer and adjust as you want.
 
