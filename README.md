@@ -59,9 +59,8 @@ STATICFILES_DIRS = [
   ```
 
 #
-5. Create the folder templates (where we create the html files) inside the app (employees) 
-
-  A boostrap free template was used to create the templates (you can download in: url: https://startbootstrap.com/previews/simple-sidebar/).
+5. Create the templates folder (where we create the html files) inside the app (employees) 
+  - A boostrap free template was used to create the templates (you can download in: url: https://startbootstrap.com/previews/simple-sidebar/).
 
 6. Create the static file inside the app and past the css e js folder from the free bootstrap template
 
