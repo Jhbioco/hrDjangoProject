@@ -1,7 +1,5 @@
-# webDjangoProject (simple web app)
-This project is a simple django app for human resources management.
-
-Feel free to download and modify as you want.
+# DjangoProject (simple web app)
+This project is a simple django web app for human resources management.
 #
 Wokflow:
    
